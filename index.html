@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations!</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial
+            background-color: #f5f5f5;
+            background-image: url('https://www.sinarmasland.com/app/uploads/2023/11/WhatsApp-Image-2023-11-15-at-10.38.50.jpeg');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
+        .congrats-message {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .congrats-message h1 {
+            color: #a5d104;
+            font-size: 3em;
+            margin: 0;
+        }
+        .congrats-message p {
+            color: #333;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="congrats-message">
+        <h1>🎊Hey Thal!🎊</h1>
+        <p>Look.. I guess you might think this is unnecessary but I just wanted to say couple words of appreciations for everything that happened. Also thall, I would appriciate your kindness if you mind to spare some of your time to open the link below knowing how busy you'll be all days 24/7🥶. Lastly as a disclaimer, everything written after this point will all be subjected as subjective or personal opinio. So I hope you don't mind ya thal!🥳</p>
+        <a href="https://www.notion.so/Thalita-s-Parting-Letter-1c705360a1f540d4a81734c680ac68be?pvs=4">Please Kindly CLICK ME!🥰</a>
+    </div>
+
+    <!-- Add Audio -->
+    <audio autoplay loop>
+        <source src="https://drive.google.com/uc?export=download&id=1ymslYzUhR9Kj1Fhq5c6M7XJspEgE4utQ" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Include Canvas Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+    <script>
+        // Trigger confetti when the page loads
+        window.onload = function() {
+            confetti({
+                particleCount: 300,
+                spread: 130,
+                origin: { y: 0.6 }
+            });
+        };
+    </script>
+
+</body>
+</html>
